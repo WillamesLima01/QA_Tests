@@ -1,0 +1,23 @@
+{
+  "name": "cypress-aula-qa202426",
+  "version": "1.0.0",
+  "description": "Repositório para os código de automação de testes com CypressJS e Cucumber (BDD) para a turma P5A - QA202426.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.15.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "process": "^0.11.10",
+    "typescript": "^5.7.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/steps"
+  }
+}
